@@ -69,7 +69,7 @@ class WeatherApi
         char *encoded = curl_easy_escape(curl, city_name.c_str(), 0);
         string safe_city = encoded;
         curl_free(encoded);
-        string URL = "https://api.openweathermap.org/data/2.5/weather?q=" + safe_city + "&appid=d14fa9aeec858de08ec235aa9e48f895&units=metric";
+        string URL = "https://api.openweathermap.org/data/2.5/weather?q=" + safe_city + "&appid="+paste_your_api_key;
         //--->
         curl_easy_setopt(curl, CURLOPT_URL, URL.c_str());
 
