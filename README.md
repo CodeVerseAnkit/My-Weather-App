@@ -17,7 +17,11 @@ Networking: libcurl
 API: OpenWeatherMap
 Platform: Linux / Android (CxxDroid)
 Storage: File handling (fstream)
+
 📸 Preview (CLI) 
+
+https://github.com/CodeVerseAnkit/My-Weather-App/blob/main/example2.jpg
+https://github.com/CodeVerseAnkit/My-Weather-App/blob/main/example%201.jpg
 
 ⚙️ How It Works
 User enters city name
